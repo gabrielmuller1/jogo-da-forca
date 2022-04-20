@@ -105,7 +105,7 @@ class Hangman extends Component {
 			<div className="Hangman">
 				<nav className="navbar navbar-expand-lg">
 					<a className="navbar-brand text-light" href="/">
-						Jogo da Forca | Aluno: Gabriel Muller
+						Jogo da Forca 
 					</a>
 					<span className="d-xl-none d-lg-none text-primary">
 						Palpites Errados: {mistake}
