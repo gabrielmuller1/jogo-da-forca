@@ -9,8 +9,8 @@ body {
 }
 
 :root {
-	--main-color: #7cfc00;
-	--error-color: #ff1100;
+	--main-color: #32cd32;
+	--error-color: #32cd32;
 	--secondary-color: #008cfe;
 	--hash-color: #d6dfdf;
 }
@@ -51,7 +51,7 @@ body {
 	outline: none;
 	background: var(--main-color);
 	color: rgb(0, 0, 0);
-	border-radius: 10px;
+	border-radius: 6px;
 	padding-top: 15px;
 }
 
@@ -61,7 +61,8 @@ body {
 	width: 10rem !important;
 	background-color: var(--main-color);
 	border-color: var(--main-color);
-	box-shadow: 0 0 40px var(--main-color);
+	box-shadow: 0 0 10px var(--main-color);
+	opacity: 0.8;
 }
 .Hangman button:hover {
 	background-color: var(--hash-color);
@@ -71,5 +72,6 @@ body {
 	color: var(--hash-color);
 	background-color: var(--error-color);
 	border-color: var(--error-color);
-	box-shadow: 0 0 40px var(--error-color);
+	box-shadow: 0 0 10px var(--error-color);
+	opacity: 0.5;
 }
