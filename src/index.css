@@ -62,14 +62,14 @@ body {
 	background-color: var(--main-color);
 	border-color: var(--main-color);
 	box-shadow: 0 0 10px var(--main-color);
-	opacity: 0.8;
 }
 .Hangman button:hover {
-	background-color: var(--hash-color);
+	background-color: var(--error-color);
+	opacity: 0.8;
 }
 
 .Hangman button:disabled {
-	color: var(--main-color);
+	color: #1c1c1c;
 	background-color: var(--error-color);
 	border-color: var(--error-color);
 	box-shadow: 0 0 10px var(--error-color);
